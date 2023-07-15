@@ -1,1 +1,1 @@
-I love errors it tells me there's progress
+Vagrant is a software application that creates an operating system environment using virtualization technology. Vagrant uses a command line interface to load, prepare, and launch a virtual environment, called a Vagrant Box. i already use Kali Linux so there no need for vagrant
