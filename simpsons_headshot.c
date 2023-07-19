@@ -7,7 +7,7 @@ int main(void) {
     int frameNum = 1;
 
     while (1) {
-        char filename[20];
+        char filename[30]; // Increase buffer size to 30 to accommodate the generated filename
         snprintf(filename, sizeof(filename), "simpsons_frame_%d.txt", frameNum);
 
         frame = fopen(filename, "r");
@@ -27,3 +27,4 @@ int main(void) {
 
     return 0;
 }
+
